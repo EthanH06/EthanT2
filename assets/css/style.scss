@@ -91,7 +91,7 @@
 
   /* Bordered form */
 form {
-  border: 3px solid #f1f1f1;
+  border: 3px solid #444444;
 }
 
 /* Full-width inputs */
@@ -100,14 +100,14 @@ input[type=text], input[type=password] {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid #333333;
   box-sizing: border-box;
 }
 
 /* Set a style for all buttons */
 button {
   background-color: #04AA6D;
-  color: white;
+  color: rgb(58, 58, 58);
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -205,9 +205,9 @@ span.psw {
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
+  background-color: #464646;
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
+  border: 1px solid #000000;
   width: 80%; /* Could be more or less, depending on screen size */
 }
 
@@ -219,7 +219,7 @@ span.psw {
   top: 15px;
   font-size: 40px;
   font-weight: bold;
-  color: #f1f1f1;
+  color: #000000;
 }
 
 .close:hover,
@@ -238,7 +238,7 @@ span.psw {
 .icon2 {
   padding: 10px;
   background: dodgerblue;
-  color: white;
+  color: rgb(22, 22, 22);
   min-width: 50px;
   text-align: center;
 }
