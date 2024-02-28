@@ -1,25 +1,13 @@
 ---
 toc: true
-comments: false
+comments: true
 layout: post
-title: Game of Life
-description: Grab of the Game of Life from APCSA repo.
+title: CPT Project Blog
+description: CPT
 type: hacks
 courses: { compsci: {week: 2} }
 ---
 
-{% comment %}
-Conway's Game of Life https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
-{% endcomment %}
-
-## Try Game by checking boxes with following patterns.
-
-```
-Up glider   Down Glider   Very Fun
- xxx           x            x
-   x            x            x
-  x           xxx           xxx
-```
 
 <style>
     #container {
